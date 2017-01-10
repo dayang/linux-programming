@@ -4,7 +4,7 @@
 #include "ename.c.inc" /* Defines ename and MAX_ENAME */
 
 #ifdef __GNUC__
-__attrubute__((__noreturn__))
+__attribute__((__noreturn__))
 #endif
 
 static void terminate(Boolean useExit3)
