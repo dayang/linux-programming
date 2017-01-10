@@ -80,7 +80,7 @@ void errExitEN(int errnum, const char *format, ...)
 
     va_start(argList, format);
     outputError(TRUE, errnum, TRUE, format, argList);
-    var_end(argList);
+    va_end(argList);
 
     terminate(TRUE);
 }

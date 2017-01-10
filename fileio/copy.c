@@ -42,7 +42,7 @@ int main(int argc, char *argv[])
     
     if(close(inputFd) == -1)
         errExit("close input");
-    if(close(ouputFd) == -1)
+    if(close(outputFd) == -1)
         errExit("close output");
     
     exit(EXIT_SUCCESS);
